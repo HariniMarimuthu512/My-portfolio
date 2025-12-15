@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Python Developer Portfolio - Showcasing projects, skills, and experience">
+    <title>Python Developer Portfolio</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="#home">Python Developer</a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Harini Marimuthu</span>
+                    </h1>
+                    <p class="hero-subtitle">Solution-oriented Python Developer | Backend Development | AI/ML | Full-Stack Systems</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="/static/Harini_M_Resume.pdf" download="Harini_M_Resume.pdf" class="btn btn-resume">
+                            <span>📄</span> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-snippet">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <button class="copy-button" id="copyCodeBtn" title="Copy code">
+                                <span class="copy-icon">📋</span>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                        <pre><code id="codeContent"># Professional Summary
+"""
+Solution-oriented Python Developer with strong experience in backend 
+development, data automation pipelines, AI-integrated applications, and 
+full-stack systems. Skilled in Flask, FastAPI, SQL, React.js, AI/ML 
+models, OpenCV, YOLOv3, and MIRNet. Adept at building scalable, secure, 
+and high-performance solutions with practical exposure to cybersecurity 
+fundamentals, including intrusion detection, firewall configuration, and 
+DDoS mitigation. Known for analytical problem solving, clean coding 
+practices, and efficient workflow optimization.
+"""
+
+# Contact Information
+linkedin = "https://www.linkedin.com/in/harini-m-7a0901278"
+github = "https://github.com/HariniMarimuthu512"
+email = "hariniportfolio.contact@gmail.com"</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a solution-oriented Python Developer with strong experience in backend development, data
+                        automation pipelines, AI-integrated applications, and full-stack systems. Skilled in Flask, FastAPI,
+                        SQL, React.js, AI/ML models, OpenCV, YOLOv3, and MIRNet.
+                    </p>
+                    <p>
+                        I'm adept at building scalable, secure, and high-performance solutions with practical exposure to
+                        cybersecurity fundamentals, including intrusion detection, firewall configuration, and DDoS mitigation.
+                        Known for analytical problem solving, clean coding practices, and efficient workflow optimization.
+                    </p>
+                    <p>
+                        As a fresher, I'm enthusiastic about applying my technical skills in real-world scenarios and
+                        contributing to innovative projects. I'm actively seeking opportunities to grow as a developer
+                        while working with experienced teams. I'm open to remote work and available in Coimbatore,
+                        Chennai, Bangalore, and Hyderabad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        I'm actively seeking opportunities to contribute to innovative projects and grow as a Python developer.
+                        Whether you're looking for a backend developer, AI/ML enthusiast, or someone passionate about building
+                        scalable solutions, I'd love to connect and discuss how we can work together.
+                    </p>
+                    <p>
+                        I'm open to full-time positions, internships, freelance projects, and collaborative opportunities.
+                        Let's build something amazing together!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong>
+                            <a href="mailto:hariniportfolio.contact@gmail.com">hariniportfolio.contact@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📍 Location:</strong>
+                            <span class="location-cities">Coimbatore | Chennai | Bangalore | Hyderabad</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>💼 Availability:</strong>
+                            <span>Open to Full-time, Internships & Remote Work</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🔗 Connect:</strong>
+                            <div class="contact-social-links">
+                                <a href="https://www.linkedin.com/in/harini-m-7a0901278" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                <a href="https://github.com/HariniMarimuthu512" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Python Developer - Harini</p>
+                <div class="social-links">
+                    <a href="https://github.com/HariniMarimuthu512" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+                        <span>🔗</span> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/harini-m-7a0901278" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                        <span>💼</span> LinkedIn
+                    </a>
+                    <a href="mailto:hariniportfolio.contact@gmail.com" aria-label="Email" class="social-link">
+                        <span>✉️</span> Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/main.js?v=2"></script>
+</body>
+</html>
+
