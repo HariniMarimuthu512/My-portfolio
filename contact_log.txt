@@ -1,0 +1,32 @@
+
+================================================================================
+ENDPOINT CALLED at 2025-12-12 16:11:12.337816
+================================================================================
+
+============================================================
+ACKNOWLEDGEMENT EMAIL CHECK:
+  send_acknowledgement_email function: <function send_acknowledgement_email at 0x000001F3DEF95C70>
+  email: nishanthmer26@gmail.com
+  email != 'Unknown': True
+============================================================
+Calling send_acknowledgement_email with:
+  name=harini
+  recipient_email=nishanthmer26@gmail.com
+  subject=i want to work with you
+send_acknowledgement_email returned: True
+
+================================================================================
+ENDPOINT CALLED at 2025-12-14 16:51:10.776829
+================================================================================
+
+============================================================
+ACKNOWLEDGEMENT EMAIL CHECK:
+  send_acknowledgement_email function: <function send_acknowledgement_email at 0x0000012CBB435C70>
+  email: nishanthmer26@gmail.com
+  email != 'Unknown': True
+============================================================
+Calling send_acknowledgement_email with:
+  name=harini
+  recipient_email=nishanthmer26@gmail.com
+  subject=i want to work with you
+send_acknowledgement_email returned: True

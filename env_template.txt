@@ -1,0 +1,10 @@
+# Email Configuration Template
+# Copy these settings to a new file named .env in the project root
+# Replace the placeholder values with your actual credentials
+
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+EMAIL_USER=hariniportfolio.contact@gmail.com
+EMAIL_PASSWORD=your_gmail_app_password_here
+RECIPIENT_EMAIL=hariniportfolio.contact@gmail.com
+
