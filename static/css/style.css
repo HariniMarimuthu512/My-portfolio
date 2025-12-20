@@ -578,11 +578,13 @@ section {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* allow more cards per row on wider screens */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     position: relative;
     z-index: 1;
     align-items: stretch;
+    width: 100%;
 }
 
 .skill-category-section {
@@ -1249,5 +1251,6 @@ section {
         text-align: center;
     }
 }
+
 
 
