@@ -61,9 +61,39 @@ PROJECTS = [
 ]
 
 SKILLS = [
+    # Programming Languages
     {"name": "Python", "level": "expert", "category": "Programming Languages"},
+    {"name": "C", "level": "advanced", "category": "Programming Languages"},
+
+    # Frameworks
     {"name": "FastAPI", "level": "advanced", "category": "Frameworks"},
     {"name": "React", "level": "intermediate", "category": "Frameworks"},
+    {"name": "Flask", "level": "advanced", "category": "Frameworks"},
+
+    # Database Systems
+    {"name": "MySQL", "level": "advanced", "category": "Database Systems"},
+    {"name": "SQL", "level": "advanced", "category": "Database Systems"},
+    {"name": "SQLite", "level": "basic", "category": "Database Systems"},
+
+    # Technical Libraries
+    {"name": "NumPy", "level": "advanced", "category": "Technical Libraries"},
+    {"name": "Pandas", "level": "advanced", "category": "Technical Libraries"},
+    {"name": "Scikit-learn", "level": "intermediate", "category": "Technical Libraries"},
+    {"name": "OpenCV", "level": "intermediate", "category": "Technical Libraries"},
+
+    # Web Development
+    {"name": "HTML", "level": "advanced", "category": "Web Development"},
+    {"name": "CSS", "level": "advanced", "category": "Web Development"},
+    {"name": "JavaScript", "level": "advanced", "category": "Web Development"},
+
+    # Domain Expertise
+    {"name": "Cybersecurity", "level": "intermediate", "category": "Domain Expertise"},
+    {"name": "REST APIs", "level": "advanced", "category": "Domain Expertise"},
+    {"name": "OOP", "level": "advanced", "category": "Domain Expertise"},
+
+    # Tools & Platforms
+    {"name": "Git", "level": "intermediate", "category": "Tools & Platforms"},
+    {"name": "WordPress", "level": "intermediate", "category": "Tools & Platforms"},
 ]
 
 
@@ -142,3 +172,4 @@ async def submit_contact(contact: ContactRequest):
             "subject": subject,
         },
     }
+
