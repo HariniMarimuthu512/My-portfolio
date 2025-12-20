@@ -3,9 +3,10 @@ import html
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
+# Must exist in Render Environment Variables
 SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
 
-# ⚠️ Must be a VERIFIED sender in SendGrid
+# MUST be a verified sender in SendGrid
 FROM_EMAIL = "hariniportfolio.contact@gmail.com"
 
 
