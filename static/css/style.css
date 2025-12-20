@@ -461,6 +461,7 @@ section {
 
 .skills .container {
     max-width: 1400px;
+    min-height: auto;
 }
 
 .section-title {
@@ -560,7 +561,8 @@ section {
 .skills {
     background: var(--bg-secondary);
     position: relative;
-    overflow: hidden;
+    overflow: visible;     /* ✅ VERY IMPORTANT */
+    padding: 120px 0;      /* ✅ ensures full height */
 }
 
 .skills::before {
@@ -1251,6 +1253,7 @@ section {
         text-align: center;
     }
 }
+
 
 
 
