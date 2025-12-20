@@ -49,16 +49,61 @@ PROJECTS = [
     {
         "id": 1,
         "title": "CANDOR DATA PLATFORM",
-        "description": "Automated end-to-end data warehouse lifecycle using AI-assisted workflows.",
-        "technologies": ["Python", "React", "AWS Bedrock"],
+        "description": (
+            "Automated the end-to-end data-warehouse lifecycle using AI-assisted "
+            "metadata-driven pipelines, reducing manual scripting and accelerating delivery."
+        ),
+        "technologies": [
+            "Python", "React", "JavaScript", "TypeScript", "AWS Bedrock", "Claude"
+        ],
+        "github_url": None,
+        "live_url": None,
+        "image_url": None
     },
     {
         "id": 2,
-        "title": "Sales Inquiry Automation",
-        "description": "AI-powered email classification and response system.",
-        "technologies": ["FastAPI", "React", "SQLite"],
+        "title": "Sales Inquiry Automation System",
+        "description": (
+            "Built a real-time inquiry processing system for hotels and travel agencies "
+            "with AI-driven email classification, scheduling, escalation, and auto-responses."
+        ),
+        "technologies": [
+            "Python", "FastAPI", "React", "SQLite", "AI/ML Models"
+        ],
+        "github_url": None,
+        "live_url": None,
+        "image_url": None
     },
+    {
+        "id": 3,
+        "title": "Object Detection for Theatre Security (Low-Light)",
+        "description": (
+            "Developed a low-light image enhancement and object-detection system using "
+            "MIRNet and YOLOv3 for accurate real-time theatre seating analysis."
+        ),
+        "technologies": [
+            "Python", "YOLOv3", "MIRNet", "OpenCV", "Deep Learning"
+        ],
+        "github_url": None,
+        "live_url": None,
+        "image_url": None
+    },
+    {
+        "id": 4,
+        "title": "DDoS Attack Mitigation for Web Security",
+        "description": (
+            "Strengthened web security by configuring firewalls, intrusion detection systems, "
+            "and deploying Wordfence to mitigate DDoS attacks in WordPress environments."
+        ),
+        "technologies": [
+            "Kali Linux", "WordPress", "Python", "Pentmenu", "Wordfence"
+        ],
+        "github_url": None,
+        "live_url": None,
+        "image_url": None
+    }
 ]
+
 
 SKILLS = [
     # Programming Languages
@@ -94,6 +139,9 @@ SKILLS = [
     # Tools & Platforms
     {"name": "Git", "level": "intermediate", "category": "Tools & Platforms"},
     {"name": "WordPress", "level": "intermediate", "category": "Tools & Platforms"},
+
+    # Development Environment
+    {"name": "VS Code", "level": "advanced", "category": "Development Environment"}
 ]
 
 
@@ -172,4 +220,5 @@ async def submit_contact(contact: ContactRequest):
             "subject": subject,
         },
     }
+
 
